@@ -33,7 +33,7 @@ set term off
 col SCRIPT new_value SCRIPT
 col AWRSPOOL NEW_VALUE AWRSPOOL
 select
-	case when upper('&HELP') in ('S','Y') then 'awrsnaps' else 'awr2' end SCRIPT
+	case when upper('&HELP') in ('S','Y') then 'null' else 'awr2' end SCRIPT
 from dual;
 @inc/save_set.sql
 set head off feed off ver off timing off

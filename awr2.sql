@@ -31,6 +31,7 @@ select
 		case when '&rac' = 'Y' then '_RAC' end ||
 		case when '&bs2' is not null then '_DIFF' end ||
 		'_' || case when '&ins' is not null then '&ins._' end || '&bs.-&es.' || 
+		case when upper('&typ') = 'SQL' then '_&sqlid' end ||
 		case when '&bs2' is not null then '_vs_' || case when '&ins2' is not null then coalesce('&ins2','&ins') || '_' end || '&bs2.-&es2.' end || 
 		'.&SUFFIX' as AWRSPOOL
 from v$database;
