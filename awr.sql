@@ -44,8 +44,8 @@ help as (
 select q'[
 ------------------------------------------------------------------------
 Usage:
-   START awrrpt bs es typ ins fmt par=value par=value ...
-   START awrrpt par=value par=value ...
+   START awr bs es typ ins fmt par=value par=value ...
+   START awr par=value par=value ...
 
 Parameters (can be passed in any order in the form parameter=value)
    bs   : begin SNAP_ID
@@ -63,10 +63,10 @@ Parameters (can be passed in any order in the form parameter=value)
    opt  : additional options (depend on the type)
 
 Example:
-   START awrrpt 200 210
-   START awrrpt 200 210 awr 1
-   START awrrpt bs=200 es=210 typ=awr rac=y
-   START awrrpt 200 210 bs2=220 es2=230 fmt=html
+   START awr 200 210
+   START awr 200 210 awr 1
+   START awr bs=200 es=210 typ=awr rac=y
+   START awr 200 210 bs2=220 es2=230 fmt=html
    START 200 210 sql sqlid=fkubjw4jnzvum
 ------------------------------------------------------------------------
 ]' HELPTXT
