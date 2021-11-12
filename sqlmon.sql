@@ -2,7 +2,7 @@
 This script generates a SQL Monitor report for a specific run of a query
 
 Created by Eduardo Claro
-Last changes on 2021-11-11
+Last changes on 2021-11-12
 
 See the help below in the query
 */
