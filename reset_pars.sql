@@ -18,6 +18,11 @@ define 13=""
 define 14=""
 define 15=""
 define 16=""
+define DEFAULTVAR1=""
+define DEFAULTVAR2=""
+define DEFAULTVAR3=""
+define DEFAULTVAR4=""
+define DEFAULTVAR5=""
 
 /*
 set termout off
